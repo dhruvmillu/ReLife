@@ -1,0 +1,132 @@
+.inp{
+    border: none;
+    outline: none;
+    background-color:transparent;
+    color:rgb(216, 216, 216);
+    width:100%;
+    height: 50px;
+    border-bottom: 1px solid rgb(139, 139, 139);
+    text-align: center;
+    font-weight: bold;
+    font-size:20px;
+    transition:0.5s;
+}
+
+.inp:hover{
+    padding-bottom: 30px;
+}
+
+.inp::placeholder{
+    color:rgb(216, 216, 216)
+}
+
+.card {
+    margin: 1rem;
+    padding: 1.5rem;
+    text-align: left;
+    color: inherit;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.5s;
+    min-width: 400px;
+    
+    min-height: 350px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+  }
+  
+.button1{
+    border:none;
+    background-color:transparent;
+    border:1px solid white;
+    color:white;
+    transition: 0.5s;
+    padding:10px 30px;
+    font-size: 20px;
+    align-self: center;
+    border-radius:10px;
+    width:max-content;
+}
+.button1:hover{
+    letter-spacing:6px
+}
+.signupHolder{
+    display:flex;
+    flex-direction:column;
+    max-width:470px;
+    min-height: 500px;
+    transition:0.5s;
+    background: linear-gradient(45deg, #0f2027, #203a43, #2c5364);
+    background-size: 200%;
+    border-radius: 10px;
+    padding:20px;
+    overflow:hidden;
+}
+.signupHolder:hover,.signupHolder:focus,.signupHolder:active {
+    background-position: 100% 0%;
+  }
+  
+
+.cardHolder{
+    display: flex;
+    position:relative;
+    transition:0.5s
+}
+
+.mainpage{
+    display:grid;
+    grid-template-columns:20% 80%;
+    height:100vh;
+    width:100vw
+}
+
+.lstyle{
+    font-size: 20px;
+    position:relative;
+    top:50%;
+    transform: translateY(-50%);
+}
+.litemstyle{
+    height: 80px;
+    transition: 0.3s;
+    border-radius: 5px;
+    letter-spacing:3px;
+    color:white;
+    font-size:25px;
+    text-align: center;
+}
+
+.litemstyle div{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center
+}
+
+.eventStyle{
+    padding:20px;
+    height:700px;
+    width:300px;
+    background-image: radial-gradient(circle at -10% -10%, hsla(236, 100%, 8%, 1) 0%, hsla(211, 100%, 28%, 1) 100%);
+    border-bottom: 1px solid black;
+    border-top:1px solid black;
+    border-left:1px solid black;
+    border-radius: 20px;
+
+}
+
+.link1{
+    color:blue;
+    font-weight: 500;
+    transition:0.3s;
+}
+
+.link1:hover{
+    color:red;
+    
+}
+
+.cSteps{
+    margin-right:20px
+}
