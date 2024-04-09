@@ -8,14 +8,7 @@ import { getAnalytics } from "firebase/analytics";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyBIWEUrz_0w2_cwjDHmxaRUslMPjquY0lo",
-  authDomain: "relife-4af65.firebaseapp.com",
-  databaseURL: "https://relife-4af65-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "relife-4af65",
-  storageBucket: "relife-4af65.appspot.com",
-  messagingSenderId: "738275736459",
-  appId: "1:738275736459:web:4c24597025ea308655cd8e",
-  measurementId: "G-L67LESLRV3"
+  
 };
 
 // Initialize Firebase
